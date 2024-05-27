@@ -14,3 +14,20 @@ h1{
 .cor1{
     background-color: rgb(247, 34, 34);
 }
+
+
+.zoom {
+    overFlow: hidden;
+}
+
+.zoom img{
+    max-width: 100%;
+   -moz-transition: all 0.3s;
+   transition: all 0.3s;
+}
+
+.zoom:hover img{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
